@@ -1,8 +1,8 @@
 import React from "react";
+import { useCart } from "../context/CartContext";
 import CartItem from "./CartItem";
 import "./Cart.css";
 import { Link } from "react-router-dom";
-import { useCart } from "../context/CartContext";
 
 export default function Cart() {
   const {
@@ -17,11 +17,13 @@ export default function Cart() {
     0
   );
 
+  const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+
   return (
     <div className="cart-container">
       <div className="cart-items">
         {cartItems.length === 0 ? (
-          <p>Your cart is empty.</p>
+          <p>Your cart is empty</p>
         ) : (
           cartItems.map((item) => (
             <CartItem
@@ -35,9 +37,9 @@ export default function Cart() {
         )}
       </div>
       <div className="cart-summary">
-        <div className="cart-total">
-          <h3>Total: Ksh{totalPrice}</h3>
-        </div>
+        <h3>Order Summary</h3>
+        <p>Total Items: {totalItems}</p>
+        <p>Total Price: Ksh {totalPrice}</p>
         <Link to="/checkout">
           <button className="checkout-button" disabled={cartItems.length === 0}>
             Checkout
