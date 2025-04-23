@@ -1,0 +1,44 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Cheese Burger",
+      "description": "Juicy grilled beef patty with cheddar cheese, lettuce, and tomato.",
+      "price": 650,
+      "image": "https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=",
+      "category": "Burger"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with fresh tomatoes, mozzarella, and basil.",
+      "price": 850,
+      "image": "https://media.istockphoto.com/id/1393150881/photo/italian-pizza-margherita-with-cheese-and-tomato-sauce-on-the-board-on-grey-table-macro-close.jpg?s=612x612&w=0&k=20&c=kL0Vhg2XKBjEl__iG8sFv31WTiahdpLc3rTDtNZuD2g=",
+      "category": "Pizza"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Biryani",
+      "description": "Spiced chicken layered with saffron rice and fried onions.",
+      "price": 700,
+      "image": "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=",
+      "category": "Rice"
+    },
+    {
+      "id": 4,
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce, parmesan, and croutons with Caesar dressing.",
+      "price": 500,
+      "image": "https://media.istockphoto.com/id/534139231/photo/healthy-grilled-chicken-caesar-salad.jpg?s=612x612&w=0&k=20&c=TR_sE5S5ChmjFywg3dh_J5V_ha-BcwgTU26BvsgbsjY=",
+      "category": "Salad"
+    },
+    {
+      "id": 5,
+      "name": "Beef Tacos",
+      "description": "Soft tortillas filled with seasoned beef, cheese, and salsa.",
+      "price": 600,
+      "image": "https://media.istockphoto.com/id/1146906219/photo/small-4inch-soft-beef-tacos.jpg?s=612x612&w=0&k=20&c=op1KqhazhHBSaPPw5fMOFK1AOeLrLNXlBnfS5HWWoXM=",
+      "category": "Mexican"
+    }
+  ]
+}
