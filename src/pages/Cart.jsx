@@ -40,7 +40,7 @@ export default function Cart() {
         <h3>Order Summary</h3>
         <p>Total Items: {totalItems}</p>
         <p>Total Price: Ksh {totalPrice}</p>
-        <Link to="/checkout">
+        <Link to="/checkout" state={{ cartItems, totalPrice }}>
           <button className="checkout-button" disabled={cartItems.length === 0}>
             Checkout
           </button>
